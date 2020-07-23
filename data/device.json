@@ -563,7 +563,7 @@
           "boardconfig": "j86ap"
         },
         {
-          "name": "iPad Mini 2 (China)",
+          "name": "iPad mini 2 (China)",
           "identifier": "iPad4,6",
           "boardconfig": "j87ap"
         }
@@ -779,7 +779,7 @@
       "id": "iPad Pro (12.9 3G/11)",
       "devices": [
         {
-          "name": "iPad Pro(11) (WiFi)",
+          "name": "iPad Pro (11) (WiFi)",
           "identifier": "iPad8,1",
           "boardconfig": "j317ap"
         },
