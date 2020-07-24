@@ -13,5 +13,5 @@ jobs:
       env:
           SSH_PRIVATE_KEY: ${{ secrets.SYNC_PRIVATE_KEY }}
       with:
-          source-repo: "git@github.com:Guyutongxue/MyCppTutorial.git"
-          destination-repo: "git@gitee.com:guyutongxue/MyCppTutorial.git"
+          source-repo: "git@github.com:Guyutongxue/JailbreakQuery.git"
+          destination-repo: "git@gitee.com:guyutongxue/JailbreakQuery.git"
