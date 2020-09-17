@@ -528,6 +528,23 @@
       ]
     },
     {
+      "name": "iPad",
+      "generation": 8,
+      "id": "iPad (8G)",
+      "devices": [
+        {
+          "name": "iPad (8G) (WiFi)",
+          "identifier": "iPad11,6",
+          "boardconfig": "j171aap"
+        },
+        {
+          "name": "iPad (8G) (Cellular)",
+          "identifier": "iPad11,7",
+          "boardconfig": "j172aap"
+        }
+      ]
+    },
+    {
       "name": "iPad mini",
       "generation": 1,
       "devices": [
@@ -671,6 +688,23 @@
           "name": "iPad Air (3G) (Cellular)",
           "identifier": "iPad11,4",
           "boardconfig": "j218ap"
+        }
+      ]
+    },
+    {
+      "name": "iPad Air",
+      "generation": 4,
+      "id": "iPad Air (4G)",
+      "devices": [
+        {
+          "name": "iPad Air (4G) (WiFi)",
+          "identifier": "iPad13,1",
+          "boardconfig": "j307ap"
+        },
+        {
+          "name": "iPad Air (4G) (Cellular)",
+          "identifier": "iPad13,2",
+          "boardconfig": "j308ap"
         }
       ]
     },
@@ -1007,6 +1041,56 @@
           "name": "Apple Watch Series 5 (44mm, LTE)",
           "identifier": "Watch5,4",
           "boardconfig": "n146bap"
+        }
+      ]
+    },
+    {
+      "name": "Apple Watch Series 6",
+      "devices": [
+        {
+          "name": "Apple Watch Series 6 (40mm)",
+          "identifier": "Watch6,1",
+          "boardconfig": "n157sap"
+        },
+        {
+          "name": "Apple Watch Series 6 (44mm)",
+          "identifier": "Watch6,2",
+          "boardconfig": "n157bap"
+        },
+        {
+          "name": "Apple Watch Series 6 (40mm, LTE)",
+          "identifier": "Watch6,3",
+          "boardconfig": "n158sap"
+        },
+        {
+          "name": "Apple Watch Series 6 (44mm, LTE)",
+          "identifier": "Watch6,4",
+          "boardconfig": "n158bap"
+        }
+      ]
+    },
+    {
+      "name": "Apple Watch SE",
+      "devices": [
+        {
+          "name": "Apple Watch SE (40mm)",
+          "identifier": "Watch5,9",
+          "boardconfig": "n140sap"
+        },
+        {
+          "name": "Apple Watch SE (44mm)",
+          "identifier": "Watch5,10",
+          "boardconfig": "n140bap"
+        },
+        {
+          "name": "Apple Watch SE (40mm, LTE)",
+          "identifier": "Watch5,11",
+          "boardconfig": "n142sap"
+        },
+        {
+          "name": "Apple Watch SE (44mm, LTE)",
+          "identifier": "Watch5,12",
+          "boardconfig": "n142bap"
         }
       ]
     }
