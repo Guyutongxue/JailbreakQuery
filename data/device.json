@@ -1149,8 +1149,13 @@
     },
     {
       "name": "HomePod mini",
-      "identifier": "AudioAccessory5,1",
-      "boardconfig": "b520ap"
+      "devices": [
+        {
+          "name": "HomePod mini",
+          "identifier": "AudioAccessory5,1",
+          "boardconfig": "b520ap"
+        }
+      ]
     }
   ]
 }
