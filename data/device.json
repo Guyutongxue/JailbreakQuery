@@ -299,6 +299,36 @@
           "boardconfig": "d79ap"
         }
       ]
+    },
+    {
+      "name": "iPhone 12 (mini)",
+      "devices": [
+        {
+          "name": "iPhone 12 mini",
+          "identifier": "iPhone13,1",
+          "boardconfig": "d52gap"
+        },
+        {
+          "name": "iPhone 12",
+          "identifier": "iPhone13,2",
+          "boardconfig": "d53gap"
+        }
+      ]
+    },
+    {
+      "name": "iPhone 12 Pro (Max)",
+      "devices": [
+        {
+          "name": "iPhone 12 Pro",
+          "identifier": "iPhone13,3",
+          "boardconfig": "d53pap"
+        },
+        {
+          "name": "iPhone 12 Pro Max",
+          "identifier": "iPhone13,4",
+          "boardconfig": "d54pap"
+        }
+      ]
     }
   ],
   "iPod touch": [
@@ -1116,6 +1146,11 @@
           "boardconfig": "b238ap"
         }
       ]
+    },
+    {
+      "name": "HomePod mini",
+      "identifier": "AudioAccessory5,1",
+      "boardconfig": "b520ap"
     }
   ]
 }
