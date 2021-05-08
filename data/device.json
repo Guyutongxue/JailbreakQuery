@@ -899,6 +899,62 @@
           "boardconfig": "j417ap"
         }
       ]
+    },
+    {
+      "name": "iPad Pro",
+      "size": 12.9,
+      "generation": 5,
+      "id": "iPad Pro (12.9 5G/11 3G)",
+      "devices": [
+        {
+          "name": "iPad Pro (12.9 5G) (WiFi)",
+          "identifier": "iPad13,8",
+          "boardconfig": "j522ap"
+        },
+        {
+          "name": "iPad Pro (12.9 5G) (WiFi, ?)",
+          "identifier": "iPad13,9",
+          "boardconfig": "j522xap"
+        },
+        {
+          "name": "iPad Pro (12.9 5G) (Cellular)",
+          "identifier": "iPad13,10",
+          "boardconfig": "j523ap"
+        },
+        {
+          "name": "iPad Pro (12.9 5G) (Cellular, ?)",
+          "identifier": "iPad13,11",
+          "boardconfig": "j523xap"
+        }
+      ]
+    },
+    {
+      "name": "iPad Pro",
+      "size": 11,
+      "generation": 3,
+      "id": "iPad Pro (12.9 5G/11 3G)",
+      "devices": [
+        {
+          "name": "iPad Pro (11 3G) (WiFi)",
+          "identifier": "iPad13,4",
+          "boardconfig": "j517ap"
+        },
+        {
+          "name": "iPad Pro (11 3G) (WiFi, ?)",
+          "identifier": "iPad13,5",
+          "boardconfig": "j517xap"
+        },
+        {
+          "name": "iPad Pro (11 3G) (Cellular)",
+          "identifier": "iPad13,6",
+          "boardconfig": "j518ap"
+        },
+        {
+          "name": "iPad Pro (11 3G) (Cellular, ?)",
+          "identifier": "iPad13,7",
+          "boardconfig": "j518xap"
+        }
+      ]
     }
   ],
   "Apple TV": [
@@ -948,6 +1004,16 @@
           "name": "Apple TV 4K",
           "identifier": "AppleTV6,2",
           "boardconfig": "j105aap"
+        }
+      ]
+    },
+    {
+      "name": "Apple TV 4K (2G)",
+      "devices": [
+        {
+          "name": "Apple TV 4K (2G)",
+          "identifier": "AppleTV11,1",
+          "boardconfig": "j305ap"
         }
       ]
     }

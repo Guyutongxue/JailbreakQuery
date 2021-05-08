@@ -20,9 +20,12 @@ print(data)
 f.close()
 del f
 
-# patch (because those 2 A-number use same Model)
+# patch:
+# Those 2 A-number use same Model
 data['AppleTV3,1'] = ['MD199']
 data['AppleTV3,2'] = ['MD199']
+# Remove Siri Remote
+data["AppleTV11,1"] = ["MXGY2", "MXH02"]
 
 with open('model-alter.json', 'w', encoding='utf-8') as f:
     json.dump(data, f, ensure_ascii=False)

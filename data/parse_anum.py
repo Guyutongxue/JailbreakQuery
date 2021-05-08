@@ -5,7 +5,7 @@ from typing import List, Dict
 f = open('model.mediawiki', 'r')
 data: Dict[str, str] = {}
 anum: List[str] = []
-identifier: ''
+identifier: str = ''
 for line in f.readlines():
     if re.match('^\|', line) is None:
         continue
@@ -38,21 +38,11 @@ for line in f.readlines():
 f.close()
 del f
 
-# patch: TIW not updated yet
-# iPad Pro 12.6 4G
-data['A2068'] = 'iPad8,11'
-data['A2228'] = 'iPad8,11'
-data['A2230'] = 'iPad8,11'
-data['A2231'] = 'iPad8,11'
-# iPad Pro 11 2G
-data['A2069'] = 'iPad8,9'
-data['A2229'] = 'iPad8,9'
-data['A2232'] = 'iPad8,9'
-data['A2233'] = 'iPad8,9'
-# iPhone SE 2G
-data['A2275'] = 'iPhone12,8'
-data['A2296'] = 'iPhone12,8'
-data['A2298'] = 'iPhone12,8'
+# patch: 
+# remove Siri Remote (unknown in TIW)
+del data["A1513"]
+del data["A1962"]
+del data["A2540"]
 
 # [{'identifier': key, 'models': value} for key, value in data.items()]
 
