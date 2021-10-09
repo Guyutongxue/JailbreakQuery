@@ -329,6 +329,36 @@
           "boardconfig": "d54pap"
         }
       ]
+    },
+    {
+      "name": "iPhone 13 (mini)",
+      "devices": [
+        {
+          "name": "iPhone 13 mini",
+          "identifier": "iPhone14,4",
+          "boardconfig": "d16ap"
+        },
+        {
+          "name": "iPhone 13",
+          "identifier": "iPhone14,5",
+          "boardconfig": "d17ap"
+        }
+      ]
+    },
+    {
+      "name": "iPhone 13 Pro (Max)",
+      "devices": [
+        {
+          "name": "iPhone 13 Pro",
+          "identifier": "iPhone14,2",
+          "boardconfig": "d63ap"
+        },
+        {
+          "name": "iPhone 13 Pro Max",
+          "identifier": "iPhone14,3",
+          "boardconfig": "d64ap"
+        }
+      ]
     }
   ],
   "iPod touch": [
@@ -575,6 +605,23 @@
       ]
     },
     {
+      "name": "iPad",
+      "generation": 9,
+      "id": "iPad (9G)",
+      "devices": [
+        {
+          "name": "iPad (9G) (WiFi)",
+          "identifier": "iPad12,1",
+          "boardconfig": "j181ap"
+        },
+        {
+          "name": "iPad (9G) (Cellular)",
+          "identifier": "iPad12,2",
+          "boardconfig": "j182ap"
+        }
+      ]
+    },
+    {
       "name": "iPad mini",
       "generation": 1,
       "devices": [
@@ -665,6 +712,23 @@
           "name": "iPad mini (5G) (Cellular)",
           "identifier": "iPad11,2",
           "boardconfig": "j211ap"
+        }
+      ]
+    },
+    {
+      "name": "iPad mini",
+      "generation": 6,
+      "id": "iPad mini (6G)",
+      "devices": [
+        {
+          "name": "iPad mini (6G) (WiFi)",
+          "identifier": "iPad14,1",
+          "boardconfig": "j310ap"
+        },
+        {
+          "name": "iPad mini (6G) (Cellular)",
+          "identifier": "iPad14,2",
+          "boardconfig": "j311ap"
         }
       ]
     },
@@ -1162,6 +1226,31 @@
           "name": "Apple Watch Series 6 (44mm, LTE)",
           "identifier": "Watch6,4",
           "boardconfig": "n158bap"
+        }
+      ]
+    },
+    {
+      "name": "Apple Watch Series 7",
+      "devices": [
+        {
+          "name": "Apple Watch Series 7 (41mm)",
+          "identifier": "Watch6,6",
+          "boardconfig": "n187sap"
+        },
+        {
+          "name": "Apple Watch Series 7 (45mm)",
+          "identifier": "Watch6,7",
+          "boardconfig": "n187bap"
+        },
+        {
+          "name": "Apple Watch Series 7 (41mm, LTE)",
+          "identifier": "Watch6,8",
+          "boardconfig": "n188sap"
+        },
+        {
+          "name": "Apple Watch Series 7 (45mm, LTE)",
+          "identifier": "Watch6,9",
+          "boardconfig": "n188bap"
         }
       ]
     },
