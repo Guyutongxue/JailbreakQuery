@@ -1,4 +1,4 @@
-const IPSWDevicesMD5 = '0b1f923ccdf6226a2a791af1e688cffd';
+const IPSWDevicesMD5 = '053b52572a2f31f24e63ab60730c386a';
 var devices;      // Devices JSON object
 var jailbreaks;   // Jailbreaks JSON object
 var productName;  // Selected product (iPhone, iPad, etc.)
